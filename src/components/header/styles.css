@@ -1,0 +1,59 @@
+h3, h4 {
+    margin: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 15px 5px;
+}
+.toggle-mini {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.icon {
+    width: 13px;
+    height: 13px;
+    background-color: rgb(103, 208, 51);
+    border-radius: 50px;
+}
+.toggle-usd {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(106, 106, 106);
+    margin-inline: 10px;
+}
+.cake {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(174, 174, 174);
+}
+.input-container {
+    width: 99%;
+}
+.input {
+    width: 100%;
+    text-align: end;
+    height: 40px;
+    background-color: rgb(252, 252, 252);
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 5px;
+}
+.btn {
+    padding: 7px 25px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: rgb(76, 76, 76);
+    font-size: 12px;
+    font-weight: 700;
+}
