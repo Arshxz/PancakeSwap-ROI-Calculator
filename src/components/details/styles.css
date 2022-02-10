@@ -1,8 +1,11 @@
 .hide-show {
+    cursor: pointer;
     text-align: center;
     margin-block: 20px ;
     font-weight: 700;
     font-size: 13px;
+    width: 25%;
+    margin-inline: auto;
 }
 .details-header {
     display: flex;

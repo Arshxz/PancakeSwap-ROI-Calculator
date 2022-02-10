@@ -1,9 +1,19 @@
-import React from "react"
+import React, { useState } from "react"
 import "./styles.css"
 
 import Toggle from "../toggle/toggle"
 
 const Header = () => {
+    const [value, setValue] = useState()
+
+    const addMoney = () => {
+        setValue(100)
+    }
+
+    const addMoney2 = () => {
+        setValue(100)
+    }
+
     return (
         <React.Fragment>
             <section className="section">
@@ -21,8 +31,8 @@ const Header = () => {
                 </div>
                 <div className="buttons">
                     <div className="container">
-                        <button className="btn">$1000</button>
-                        <button className="btn">$100</button>
+                        <button onClick={addMoney} className="btn">$1000</button>
+                        <button onClick={addMoney2} className="btn">$100</button>
                     </div>
                     <div className="cake">~CAKE 0.000</div>
                 </div>
