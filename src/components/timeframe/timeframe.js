@@ -59,7 +59,7 @@ const Timeframe = () => {
                 </div>
             </div>
             <div className="timeframe-toggle-container">
-                <h3>Enable Accelarated APY</h3>
+                <h3>Enable Accelerated APY</h3>
                 <div className="timeframe-toggle">
                     <Toggle className="toggle-scale" />
                 </div>

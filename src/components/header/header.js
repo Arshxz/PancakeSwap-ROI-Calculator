@@ -4,14 +4,18 @@ import "./styles.css"
 import Toggle from "../toggle/toggle"
 
 const Header = () => {
-    const [value, setValue] = useState()
+    const [capital, setCapital] = useState()
 
+    const change = (event) => {
+        event.preventDefault() //Just incase we submit the data
+        setCapital(event.target.value)
+    }
     const addMoney = () => {
-        setValue(100)
+        setCapital(1000)
     }
 
     const addMoney2 = () => {
-        setValue(100)
+        setCapital(100)
     }
 
     return (
@@ -27,7 +31,7 @@ const Header = () => {
                     <div className="toggle-usd"><Toggle /> USD</div>
                 </div>
                 <div className="input-container">
-                    <input className="input" placeholder="0.000 USD" />
+                    <input type="number" className="input" placeholder="0.000 USD" value={capital} onChange={change} />
                 </div>
                 <div className="buttons">
                     <div className="container">

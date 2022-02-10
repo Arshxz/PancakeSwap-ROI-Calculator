@@ -1,0 +1,12 @@
+.app {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(151, 186, 178);
+}
+.inner-container {
+    background-color: #fff;
+    height: 100vh;
+    border-radius: 10px;
+    padding-inline: 10px;
+}

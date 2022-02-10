@@ -54,7 +54,7 @@ const Tier = () => {
             </div>
             <div className="timeframe-rates">ROI at Current Rates</div>
             <div className="timeframe-input-container">
-                <input className="timeframe-input" placeholder="0.000 USD" />
+                <input type="number" className="timeframe-input" placeholder="0.000 USD" />
             </div>
             <div className="timeframe-cake">~ 0.000 CAKE + 0.000000 DON</div>
         </Fragment>
