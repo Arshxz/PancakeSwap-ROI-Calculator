@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.css"
 
+import Toggle from "../toggle/toggle";
+
 const Timeframe = () => {
     return (
         <>
@@ -16,7 +18,9 @@ const Timeframe = () => {
             </div>
             <div className="timeframe-toggle-container">
                 <h3>Enable Accelarated APY</h3>
-                <div className="timeframe-toggle">Toggle</div>
+                <div className="timeframe-toggle">
+                    <Toggle />
+                </div>
             </div>
             <h5 style={{ marginBlock: "15px" }}>Select Tier</h5>
             <div className="timeframe-buttons">

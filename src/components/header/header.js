@@ -1,6 +1,8 @@
 import React from "react"
 import "./styles.css"
 
+import Toggle from "../toggle/toggle"
+
 const Header = () => {
     return (
         <React.Fragment>
@@ -12,7 +14,7 @@ const Header = () => {
                 <div className="toggle-mini">
                     <div className="icon"></div>
                     <div className="toggle-usd">CAKE</div>
-                    <div className="toggle">Toggle</div>
+                    <div className="toggle"><Toggle /> USD</div>
                 </div>
                 <div className="input-container">
                     <input className="input" placeholder="0.000 USD" />
