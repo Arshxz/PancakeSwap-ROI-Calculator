@@ -1,12 +1,25 @@
 h3, h4 {
     margin: 0;
 }
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-block: 15px 5px;
 }
+
+.heading {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.x {
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 300;
+}
+
 .toggle-mini {
     display: flex;
     justify-content: flex-end;
@@ -23,12 +36,12 @@ h3, h4 {
     font-size: 12px;
     font-weight: 700;
     color: rgb(106, 106, 106);
-    margin-inline: 10px;
 }
 .cake {
     font-size: 12px;
     font-weight: 700;
-    color: rgb(174, 174, 174);
+    margin-inline: 7px;
+    color: rgb(159, 159, 159);
 }
 .input-container {
     width: 99%;
@@ -53,7 +66,7 @@ h3, h4 {
     margin-right: 10px;
     border: 1px solid white;
     border-radius: 12px;
-    color: rgb(76, 76, 76);
+    color: rgb(0, 0, 0);
     font-size: 12px;
     font-weight: 700;
 }

@@ -8,13 +8,13 @@ const Header = () => {
         <React.Fragment>
             <section className="section">
                 <div className="header">
-                    <h4>ROI Calculator</h4>
-                    <div>X</div>
+                    <h4 className="heading">ROI Calculator</h4>
+                    <div className="x">X</div>
                 </div>
                 <div className="toggle-mini">
                     <div className="icon"></div>
-                    <div className="toggle-usd">CAKE</div>
-                    <div className="toggle"><Toggle /> USD</div>
+                    <div className="cake">CAKE</div>
+                    <div className="toggle-usd"><Toggle /> USD</div>
                 </div>
                 <div className="input-container">
                     <input className="input" placeholder="0.000 USD" />

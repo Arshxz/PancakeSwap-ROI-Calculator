@@ -19,7 +19,7 @@ const Timeframe = () => {
             <div className="timeframe-toggle-container">
                 <h3>Enable Accelarated APY</h3>
                 <div className="timeframe-toggle">
-                    <Toggle />
+                    <Toggle className="toggle-scale" />
                 </div>
             </div>
             <h5 style={{ marginBlock: "15px" }}>Select Tier</h5>

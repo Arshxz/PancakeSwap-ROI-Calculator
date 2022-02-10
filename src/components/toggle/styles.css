@@ -28,7 +28,7 @@
     content: "";
     height: 18px;
     width: 18px;
-    left: 2px;
+    left: 1px;
     bottom: 1px;
     background-color: white;
     transition: 0.4s;
@@ -39,7 +39,7 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-    transform: translateX(18px);
+    transform: translateX(20px);
 }
 
 .slider.rounded {

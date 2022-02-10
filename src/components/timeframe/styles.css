@@ -55,3 +55,6 @@ h5 {
     font-weight: 700;
     color: rgb(174, 174, 174);
 }
+.toggle-scale {
+    transform: scale(1.2);
+} 
